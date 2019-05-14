@@ -1,28 +1,27 @@
 # Credit Card Validation
 
-This is a simple credit card validation with Luhn's Algorithm written in C
+This is a simple program to transform a plaintext to ciphertext using Caesar cryptosystem written in C
 [Pseuodocode](pseuodocode.txt)
 
 ## Task
 
-Create a program that validates the credit card number using Luhns Algorithm
-[CS50 2019 - credit](https://lab.cs50.io/cs50/labs/2019/x/credit/)
+Create a program that transforms the plaintext to ciphertext based on the argument provided by the user
+[CS50 2019 - Caesar](https://lab.cs50.io/cs50/labs/2019/x/caesar/)
 
 ## Criteria
 
-Write a program that prompts the user for a credit card number and then reports (via printf) whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein. So that we can automate some tests of your code, we ask that your program’s last line of output be AMEX\n or MASTERCARD\n or VISA\n or INVALID\n, nothing more, nothing less.
+The program must receive a non-negative argument and ignore non-Alphabet char
 
 
 ## Functionality
 
-This program ask for the credit card number and then check with the Luhn's Algorithm whether it's valid.
-Once valid, it prompts the company name related to the credit card. Otherwise, it returns INVALID.
+This program asks for the argument and applies Caesar cryptosystem on a plaintext, thus generating a ciphertext
 
 ## Run Locally
 
-Run this command git clone https://github.com/guiaramos/credit-card-validation.git.
-Make sure your PC is able to compile C lang
-Run "make credit" and then "./credit"
+Run this command git clone https://github.com/guiaramos/caesar-cryptosystem.git.
+Make sure your PC is able to compile Clang
+Run "make Caesar" and then "./caesar"
 
 ## Tech Stack
 
