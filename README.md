@@ -12,7 +12,6 @@ Create a program that transforms the plaintext to ciphertext based on the argume
 
 The program must receive a non-negative argument and ignore non-Alphabet char
 
-
 ## Functionality
 
 This program asks for the argument and applies Caesar cryptosystem on a plaintext, thus generating a ciphertext
