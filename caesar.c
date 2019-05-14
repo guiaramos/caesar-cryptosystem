@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
 
   int k = atoi(argv[1]); // assigning the key to a variable int
 
-  printf("cyphertext: ");
+  printf("ciphertext: ");
 
   for (int i = 0; i < n; i++)
   {
