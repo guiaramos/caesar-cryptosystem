@@ -13,7 +13,9 @@
 int main(int argc, char const *argv[])
 {
   // Check if the argument was informed and not a negative
-  if (argc != 2 || argc < 0)
+  int k = atoi(argv[1]); // assigning the key to a variable int
+
+  if (argc != 2 || argc < 0 || !isdigit(k))
   {
     printf("Usage: ./caesar key\n");
     return 1;
@@ -22,8 +24,6 @@ int main(int argc, char const *argv[])
   // Ask for the plaintext to be encrypted
   string plaintext = get_string("plaintext: ");
   int n = strlen(plaintext); // getting the length of the plaintext
-
-  int k = atoi(argv[1]); // assigning the key to a variable int
 
   printf("ciphertext: ");
 
